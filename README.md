@@ -20,7 +20,7 @@ console.log(example);`
 # EX 2
 //MAKE A BUTTON PRINT THE CURRENT WINDOW
 
-/*HTML 
+
 <head>
   <meta charset="utf-8">
   <title>JS PRINT EXERCISE</title>
@@ -28,7 +28,6 @@ console.log(example);`
 <body>
   <button id="print">Print Me</button>
 </body>
-HTML */
 
 //JS 
 
