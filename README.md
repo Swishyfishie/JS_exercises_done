@@ -1,5 +1,7 @@
 ﻿# JS_exercises_done
-# ex number 1 // SET DATE AND TIME IN THIS SPECIFIC FORMAT
+# EX 1
+
+// SET DATE AND TIME IN THIS SPECIFIC FORMAT
 
 `let newDate = new Date;
 let days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
@@ -14,3 +16,28 @@ Current time is: ${hour}${ampm} : ${minutes} : ${seconds}.
 `
 
 console.log(example);`
+
+# EX 2
+//MAKE A BUTTON PRINT THE CURRENT WINDOW
+
+/*HTML 
+<head>
+  <meta charset="utf-8">
+  <title>JS PRINT EXERCISE</title>
+</head>
+<body>
+  <button id="print">Print Me</button>
+</body>
+HTML */
+
+//JS 
+
+
+const button = document.getElementById('print');
+
+button.addEventListener("click", printMe)
+
+function printMe() {
+	window.print();
+}
+//JS
