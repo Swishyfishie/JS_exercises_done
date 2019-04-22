@@ -29,3 +29,18 @@ function printMe() {
 	window.print();
 }
 
+# EX 3 
+
+//TRIANGLE AREA
+
+let ab = 5; //here you can make get the input but I chose to do it with fixed values. However it works and it's ok.
+let bc = 6;
+let ca = 7;
+
+//find the perimeter
+
+let per = (ab + bc + ca)/2;   
+
+let area = Math.floor(Math.sqrt(per*((per-ab)*(per-bc)*(per-ca))));  //
+
+console.log(area);
