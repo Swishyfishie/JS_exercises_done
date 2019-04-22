@@ -38,3 +38,16 @@ function printMe() {
 }
 //JS
 
+//TRIANGLE AREA
+
+let ab = 5;
+let bc = 6;
+let ca = 7;
+
+//find the perimeter
+
+let per = (ab + bc + ca)/2;
+
+let area = Math.floor(Math.sqrt(per*((per-ab)*(per-bc)*(per-ca))));
+
+console.log(area);
